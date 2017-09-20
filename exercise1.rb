@@ -29,3 +29,19 @@ names = {
   "Jeanine" => 28,
   "Laura" => 27
 }
+
+# part 1
+puts coin_flip
+
+# part 2
+puts fav_colours[0]
+
+# part 3
+puts ages.sort
+
+# part 4
+ages << 0
+puts ages
+
+# part 5
+puts fav_movies["Ratatouille"]
