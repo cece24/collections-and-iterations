@@ -1,7 +1,7 @@
 # Arrays
 fav_colours = ["mint", "pink", "teal"]
 ages = [28, 32, 27]
-coin_flip_heads = ["heads", "heads", "tails", "heads", "tails"]
+coin_flip = ["heads", "heads", "tails", "heads", "tails"]
 fav_artists = ["Muse", "Ariana", "Calvin Harris"]
 fav_colours_symbols = [:mint, :pink, :teal]
 
