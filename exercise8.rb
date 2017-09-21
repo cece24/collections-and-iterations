@@ -1,5 +1,11 @@
 grocery_list = ["strawberries", "mangoes", "soap", "shampoo", "chocolate almonds"]
 
-grocery_list.each do |grocery|
-  puts "* #{grocery}"
+def display_list(list)
+  list.each do |item|
+    puts "* #{item}"
+  end
 end
+
+grocery_list << "rice"
+
+display_list(grocery_list)
