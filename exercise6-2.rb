@@ -48,8 +48,8 @@ countries = [
   { "name" => "Australia", "continent" => "Australia", "island" => "yes"}
 ]
 
-mainland_countries = countries.select do |current_index|
-  current_index["island"] == "no"
+mainland_countries = countries.select do |current_element|
+  current_element["island"] == "no"
 end
 
 puts "Here is the countries array: #{countries}"
