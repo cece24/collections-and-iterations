@@ -11,3 +11,7 @@ def display_cohorts(list_of_cohorts)
 end
 
 display_cohorts(students)
+
+students[:cohort4] = 43
+
+puts students.keys
