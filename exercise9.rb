@@ -26,3 +26,22 @@ display_cohorts(students)
 # delete 2nd cohort and redisplay hash
 students.delete(:cohort2)
 display_cohorts(students)
+
+# calculate total number of students
+total_students = 0
+
+students.each do |_name, size|
+  total_students += size
+end
+
+puts "Total number of students: #{total_students}"
+
+# create staff hash and display_list
+staff = {
+  staff1: 4,
+  staff2: 6,
+  staff3: 8,
+  staff4: 12
+}
+
+display_cohorts(staff)
