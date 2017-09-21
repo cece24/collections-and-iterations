@@ -1,4 +1,4 @@
-grocery_list = ["strawberries", "mangoes", "soap", "shampoo", "chocolate almonds"]
+grocery_list = ["strawberries", "mangoes", "soap", "shampoo", "chocolate almonds", "salmon"]
 
 def display_list(list)
   list.each do |item|
@@ -19,3 +19,9 @@ else
 end
 
 puts "Second item on list: #{grocery_list[1]}"
+
+sorted_list = grocery_list.sort
+display_list(sorted_list)
+
+sorted_list.delete("salmon")
+display_list(sorted_list)
