@@ -44,3 +44,15 @@ fav_artists.each do |artist|
 end
 
 # part 3
+ages_after_one_year = ages.map { |age| age += 1 }
+puts ages_after_one_year
+
+# part 4
+puts "The total sum of the ages is: #{ages.reduce(:+)}"
+
+# part 5
+heads = coin_flip.select do |flip|
+  flip == "heads"
+end
+
+puts heads
